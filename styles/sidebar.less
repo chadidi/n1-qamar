@@ -1,0 +1,38 @@
+@import "variables";
+
+.column-MessageListSidebar {
+  background: #fafafa;
+}
+
+.sidebar-section.visible {
+  animation: slideLeft 0.3s ease-out;
+}
+
+.btn-feedback {
+  display: none;
+}
+
+.composer-inner-wrap .composer-centered {
+  background: #fafafa;
+}
+
+.related-threads {
+  background-color: rgba(200, 200, 200, 0.2);
+  .subject, .timestamp {
+    color: @text-color-very-subtle;
+  }
+  .toggle {
+    color: @ac;
+  }
+  .related-thread:hover {
+    background-color: lighten(rgba(200, 200, 200, 0.4), 40%);
+  }
+}
+
+.sidebar-no-info {
+  display: none;
+}
+
+.sidebar-section h2 {
+  border: none;
+}
